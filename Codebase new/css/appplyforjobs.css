@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ****************utility section************   */
+
+.primary-heading {
+    font-size: 2.42rem;
+    font-weight: 900;
+}
+
+.secondary-heading {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.heading-center {
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #4e0fea;
+    color: white;
+    border: none;
+}
+
+/* ****************navbar section************   */
+/* codebase main  */
+header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 50px 0px 40px;
+    font-size: 1.4rem;
+}
+
+.codebase h1 span {
+    color: blue;
+}
+
+.right-top>button {
+    margin: 0px 10px;
+}
+
+.icons-nav i {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .right-top {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* *********************side section fixed ********************  */
+.fixed-logos{
+display: flex;
+flex-direction: column;
+position: fixed;
+top: 165px;
+}
+.fixed-logos i{
+    font-size: 2.5rem; 
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* *********************first Section ********************  */
+.first-section {
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.first-section h2 {
+    font-size: 5rem;
+}
+.first-section p{
+    font-size: 1.5rem;
+    margin: 30px 0px;
+}
+#openings-btn{
+    background-color: white;
+    color: black;
+    padding: 20px 30px ;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ******************************** second section  */
+.openings-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.opening-box h2{
+    font-size: 1.4rem;
+    font-weight: 100 !important;
+}
+.openings-top .openings-nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+}
+.openings-top .openings-nav li{
+    margin: 0px 2px;
+}
+.openings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 30px;
+}
+.opening-box{
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.opening-box> h2{
+    font-weight: 100;
+}
+.openings-nav select{
+    padding: 5px;
+}
+.apply-now-btn button{
+    padding: 8px 15px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: none;
+    background-color: #666;
+    color: white;
+}
+.job-description{
+    font-size: 1rem;
+}
+.apply-now-btn button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* ***************footer**********  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #444;
+    color: white;
+}
+#pow{
+    font-size: 0.5rem;
+}
+.footer-element{
+    margin: 5px;
+    font-size: 1rem;
+}
